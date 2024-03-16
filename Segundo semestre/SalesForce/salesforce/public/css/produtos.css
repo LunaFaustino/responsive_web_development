@@ -1,0 +1,130 @@
+.pagina{
+    width: 1024px;
+
+    
+}
+
+.produto1{
+    display: flex;
+    width: 100%;
+
+}
+
+.produto2{
+    display: flex;
+}
+
+.customer360{
+    width: 100%;
+    background-image: url("../assets/backcustomer.png");
+    background-repeat: no-repeat; 
+
+    display: flex;
+    height: 752px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.nuvemdedados{
+    width: 100%;
+    background-image: url("../assets/backdata.png");
+    background-repeat: no-repeat; 
+
+    display: flex;
+    height: 752px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.marketingcloud{
+    width: 100%;
+    background-image: url("../assets/backmarketing.png");
+    background-repeat: no-repeat; 
+
+    display: flex;
+    height: 752px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+h2{
+    color: #032D60;
+    text-align: center;
+    font-family: "Salesforce Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+    letter-spacing: -0.672px;
+}
+
+.artigo1{
+    width: 100%;
+    align-self: stretch;
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.artigo2{
+    max-width: 100%;
+    align-self: stretch;
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.textoartigo{
+    color: #181818;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.textobotao{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+
+    display: flex;
+    padding: 10px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+
+}
+
+
+
+
+
+

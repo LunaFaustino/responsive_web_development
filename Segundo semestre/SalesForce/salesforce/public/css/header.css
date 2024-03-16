@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+    width: 1024px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lista{
+    display: flex;
+    padding: 0px 2px;
+    align-items: flex-start;
+    gap: 23px;
+    align-self: stretch;
+    color: #032D60;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15.891px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style: none;
+}
+
+.logo {
+    width: 100.625px;
+    height: 70px;
+}
