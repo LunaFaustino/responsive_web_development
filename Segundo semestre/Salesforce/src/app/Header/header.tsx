@@ -6,7 +6,7 @@ const Header = () =>{
         <header>
             <section className="header">
                 <img src="assets/logosalesforce.png" alt="" className="logosales"/>
-                <ul>
+                <ul className="listaheader">
                     <li>Produtos</li>
                     <li>Contato</li>
                     <li>Equipe</li>

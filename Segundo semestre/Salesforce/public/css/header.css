@@ -18,13 +18,13 @@ header{
     display: flex;
     align-items: center;
 }
-ul{
+.listaheader{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-li{
+.listaheader li{
     display: flex;
     padding: 0px 2px;
     align-items: flex-start;
