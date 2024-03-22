@@ -6,7 +6,9 @@ const Header = () =>{
         <>
         <header>
             <section className="header">
-                <img src="assets/logosalesforce.png" alt="" className="logosales"/>
+                <Link href="/">
+                    <img src="assets/logosalesforce.png" alt="" className="logosales"/>
+                </Link>
                 <ul className="listaheader">
                     <Link href="/Produtos">
                         <li>Produtos</li>
