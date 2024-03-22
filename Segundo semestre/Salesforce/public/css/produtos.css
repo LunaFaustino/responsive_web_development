@@ -1,8 +1,4 @@
-.pagina {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 .customer360{
     background-image: url("/assets/backcustomer.png");

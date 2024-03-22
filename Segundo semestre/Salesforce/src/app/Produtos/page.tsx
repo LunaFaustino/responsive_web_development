@@ -4,6 +4,7 @@ import Link from "next/link";
 const Produtos = () => {
     return(
         <>
+            <title>Produtos</title>
             <main className="pagina">
                 <div className="customer360">
                     <section className="produto1">
@@ -23,9 +24,7 @@ const Produtos = () => {
                         </article>
                     </section>
                     <section className="corpobotao">
-                    <Link href="/Produtos">
-                            <button className="textobotao">Entre em contato para saber mais!</button>
-                        </Link>
+                        <button className="textobotao">Entre em contato para saber mais!</button>
                     </section>
                 </div>
 
@@ -46,9 +45,7 @@ const Produtos = () => {
                     </section>
 
                     <section className="corpobotao">
-                    <Link href="/Produtos">
-                            <button className="textobotao">Entre em contato para saber mais!</button>
-                        </Link>
+                        <button className="textobotao">Entre em contato para saber mais!</button>
                     </section>
                 </div>
 
