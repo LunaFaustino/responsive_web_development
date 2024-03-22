@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "./Header/header";
 
 export const metadata: Metadata = {
   title: "Salesforce",
@@ -13,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
+        <Header/>
         {children}
       </body>
     </html>
