@@ -1,3 +1,5 @@
+
+    
     // Array para armazenar os dados
     var data = [];
 

@@ -1,23 +1,17 @@
 "use client"
 import Link from "next/link";
 import "../../../public/css/header.css"
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 
 const Header = () =>{
 
-/*
-    const aumentarFonte = () => {
-        const body = document.body;
-        const tamanhoAtual = parseFloat(window.getComputedStyle(body, null).getPropertyValue('font-size'));
-        body.style.fontSize = `${tamanhoAtual + 10}px`;
-     };
+    const [theme, setTheme] = useState('light'); // Estado inicial do tema
 
-     const diminuirFonte = () => {
-        const body = document.body;
-        const tamanhoAtual = parseFloat(window.getComputedStyle(body, null).getPropertyValue('font-size'));
-        body.style.fontSize = `${tamanhoAtual - 10}px`;
-     };
-*/
+    // Função para mudar o tema
+    const changeTheme = (newTheme) => {
+       setTheme(newTheme);
+       document.body.className = newTheme; // Aplica a classe do tema ao body
+    };
 
     return(
         <>
@@ -36,8 +30,8 @@ const Header = () =>{
                     </ul>
                 </section>
                 <section>
-                    <button>Fundo escuro</button>
-                    <button>Fundo claro</button>
+                    <button onClick={() => changeTheme('dark')}>Fundo escuro</button>
+                    <button onClick={() => changeTheme('light')}>Fundo claro</button>
                 </section>
             </header>
         </>
