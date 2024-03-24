@@ -3,6 +3,7 @@ import Header from "./Header/header";
 import Footer from "./Footer/footer";
 import "../../public/css/global.css";
 
+
 export const metadata: Metadata = {
   title: "Salesforce",
   description: "",
