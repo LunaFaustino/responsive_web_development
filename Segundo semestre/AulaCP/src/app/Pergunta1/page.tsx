@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { SetStateAction, useState } from "react";
 
 const Pergunta1 = () => {
@@ -19,6 +20,7 @@ const Pergunta1 = () => {
                     <input type="radio" name="sentimento" value="está meio pra baixo" onChange={handleSentimentoChange}/> Estou meio pra baixo :c
                 </form>
                 {sentimento && <p>Você selecionou que {sentimento}</p>}
+                <Link href="/Pergunta2"><button>Próxima pergunta</button></Link>
             </div>
         </>
     )
