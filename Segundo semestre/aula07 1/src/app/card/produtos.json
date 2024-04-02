@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Produto 1",
+        "preco": 11.11,
+        "descricao": "Produto 1, na cor azul",
+        "slug": "produto-azul",
+        "img" : "next.svg"
+    },
+    {
+        "id": 2,
+        "nome": "Produto 2",
+        "preco": 22.22,
+        "descricao": "Produto 2, na cor rosa",
+        "slug": "produto-rosa",
+        "img" : "next.svg"
+    },
+    {
+        "id": 3,
+        "nome": "Produto 3",
+        "preco": 33.33,
+        "descricao": "Produto 3, na cor vermelha",
+        "slug": "produto-vermelha",
+        "img" : "next.svg"
+    },
+    {
+        "id": 4,
+        "nome": "Produto 4",
+        "preco": 44.44,
+        "descricao": "Produto 4, na cor preta",
+        "slug": "produto-preta",
+        "img" : "next.svg"
+    },
+    {
+        "id": 5,
+        "nome": "Produto 5",
+        "preco": 55.55,
+        "descricao": "Produto 5, na cor branca",
+        "slug": "produto-branca",
+        "img" : "next.svg"
+    },
+    {
+        "id": 6,
+        "nome": "Produto 6",
+        "preco": 66.66,
+        "descricao": "Produto 6, na cor verde",
+        "slug": "produto-verde",
+        "img" : "next.svg"
+    },
+    {
+        "id": 7,
+        "nome": "Produto 7",
+        "preco": 77.77,
+        "descricao": "Produto 7, na cor laranja",
+        "slug": "produto-laranja",
+        "img" : "next.svg"
+    },
+    {
+        "id": 8,
+        "nome": "Produto 8",
+        "preco": 88.88,
+        "descricao": "Produto 8, na cor marrom",
+        "slug": "produto-marrom",
+        "img" : "next.svg"
+    }
+]
