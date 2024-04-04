@@ -22,7 +22,7 @@ const Card = () =>{
                             <p>R$ {produto.preco}</p>
                             <p>{produto.descricao}</p>
                             <Link href={"Produtos/" + produto.slug}>{produto.nome}</Link>
-                            <Image src = {produto.img} width="100" ></Image>
+                            <img src={produto.img}/>
                         </div>
                     ))}
                 </div>

@@ -20,7 +20,7 @@
         "nome": "Produto 3",
         "preco": 33.33,
         "descricao": "Produto 3, na cor vermelha",
-        "slug": "produto-vermelha",
+        "slug": "produto-vermelho",
         "img" : "next.svg"
     },
     {
@@ -28,7 +28,7 @@
         "nome": "Produto 4",
         "preco": 44.44,
         "descricao": "Produto 4, na cor preta",
-        "slug": "produto-preta",
+        "slug": "produto-preto",
         "img" : "next.svg"
     },
     {
@@ -36,7 +36,7 @@
         "nome": "Produto 5",
         "preco": 55.55,
         "descricao": "Produto 5, na cor branca",
-        "slug": "produto-branca",
+        "slug": "produto-branco",
         "img" : "next.svg"
     },
     {
