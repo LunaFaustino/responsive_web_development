@@ -51,7 +51,7 @@ const Home : React.FC = () => {
   const [produtos, setProdutos] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:8080/appRWD/rest/produto")
+    fetch("http://localhost:5482/appRWD/rest/produto/")
     .then((resp) => resp.json())
     .then((resp) => {
       setProdutos(resp);
@@ -62,7 +62,7 @@ const Home : React.FC = () => {
   },[])
   
   const handleDelete = (id) => {
-    fetch("http://localhost:8080/appRWD/rest/produto/"+id,{
+    fetch("http://localhost:5482/appRWD/rest/produto/"+id,{
       method: "delete"
     })
     .then(() => {
