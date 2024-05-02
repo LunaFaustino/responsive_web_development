@@ -17,7 +17,7 @@ const incluirProduto = () => {
 
     useEffect(() => {
         if(id && id !== "novo"){
-            fetch(`http://localhost:5482/appRWD/rest/produto/${id}`)
+            fetch(`http://localhost:8080/appRWD/rest/produto/${id}`)
             .then((res) => {
                 if(res.ok){
                     return res.json();
@@ -46,7 +46,7 @@ const incluirProduto = () => {
         e.preventDefault();
 
         const method = id && id !== "novo" ? "PUT" : "POST";
-        const url = id && id !== "novo" ? `http://localhost:5482/appRWD/rest/produto/${id}` : `http://localhost:5482/appRWD/rest/produto/`;
+        const url = id && id !== "novo" ? `http://localhost:8080/appRWD/rest/produto/${id}` : `http://localhost:8080/appRWD/rest/produto/`;
 
         fetch(url, {
             method,

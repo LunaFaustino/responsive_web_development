@@ -10,39 +10,40 @@ const DivLista = styled.div`
   margin:auto;
   font-family: Arial;
   h1{
-    text-align: center
+    text-align:center
   }
   table, tbody{
     width: 100%;
     margin: auto;
   }
   thead tr{
-    background: darkblue;
+    background:darkblue;
     color: white;
   }
   thead tr th{
     padding: 10px;
   }
   tbody tr:nth-child(2n+2){
-    background: #ccc;
-    height: 30px;
+    background:#ccc;
+    height:30px;
   }
   tbody tr td{
-    padding: 5px;
+    padding:5px;
   }
-  tbody tr td button, button{
-    background:none;
+  tbody tr td a, tbody tr td button, button{
+    background: none;
     border:none;
-    color: red;
+    color: red
   }
-  button{
-    color: white;
-  }
+button{
+  color: white;
+}
   a{
     text-decoration:none;
     padding: 10px 15px;
     background: yellowgreen;
-    display: inline-block;
+    display:inline-block;
+    
   }
 `
 
@@ -51,7 +52,7 @@ const Home : React.FC = () => {
   const [produtos, setProdutos] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:5482/appRWD/rest/produto/")
+    fetch("http://localhost:8080/appRWD/rest/produto/")
     .then((resp) => resp.json())
     .then((resp) => {
       setProdutos(resp);
@@ -62,7 +63,7 @@ const Home : React.FC = () => {
   },[])
   
   const handleDelete = (id) => {
-    fetch("http://localhost:5482/appRWD/rest/produto/"+id,{
+    fetch("http://localhost:8080/appRWD/rest/produto/"+id,{
       method: "delete"
     })
     .then(() => {
